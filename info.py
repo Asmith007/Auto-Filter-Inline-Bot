@@ -31,8 +31,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Lucifer07:asmith123@cluster0.gb9wavl.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Lucifer:asmith123@lucifer07.rblorwy.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
+DATABASE_NAME = environ.get('DATABASE_NAME', "lucifer07")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
